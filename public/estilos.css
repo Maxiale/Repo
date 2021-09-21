@@ -1,0 +1,74 @@
+header{
+    background-color: #EAC926;
+}
+body{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulares{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+.descripciones{
+    font-size: 16px;
+}
+
+
+
+.fas-fa-bars{
+    background-position: bottom;
+}
+
+footer{
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+    width: 90%;
+    background-color: #ebebeb;
+    
+}
+
+li{
+    list-style: none;
+    text-align: left;
+}
+
+#cuotas{
+    text-align: center;
+}
+
+section{
+    padding: 10px;
+}
+
+.caja{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.caja1{
+    border-top: solid 1px #ebebeb;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 15px;
+    
+}
+
+@media(min-width: 361 px){
+    
+}
+@media(min-width: 769px){
+    
+}
+
+

@@ -1,3 +1,6 @@
+footer{
+    text-align: center;
+}
 *{
     margin: 0px;
     padding: 0px;    
@@ -174,6 +177,9 @@ article div.main-article{
 }
 
 @media (min-width: 361px){
+    .burger{
+        display: none;
+    }
     main section article .description{
         display: block;
     }
@@ -198,6 +204,18 @@ article div.main-article{
     .discount{
         width: 50%;
     }
+    .ul1{
+        display: flex;
+        flex: row;
+        flex-direction: row;
+    }
+    .ul2{
+        display: flex;
+        flex: row;
+        flex-direction: row;
+        justify-content: right;
+    }
+    
 }
 
 @media (min-width: 769px){

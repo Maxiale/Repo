@@ -175,7 +175,13 @@ article div.main-article{
     position: relative;
     padding: 15px;
 }
-
+i:hover {
+    transform: rotate(270deg);
+    transition-duration: 0.5s;
+}
+.submit:hover{
+    background-color: #0022AA;
+}
 @media (min-width: 361px){
     .burger{
         display: none;

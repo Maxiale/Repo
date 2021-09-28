@@ -3,7 +3,7 @@ const app = express();
 app.use(express.static('public'));
 
 
-app.listen(3000, ()=>{
+app.listen(proces.env.PORT || 3007, ()=>{
     console.log('Servidor funcionando en http://localhost:3000');
 });
 
